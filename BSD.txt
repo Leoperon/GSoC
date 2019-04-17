@@ -1,0 +1,20 @@
+BSD networking:
+In the 1970s  Bell Labs introduced us with BSD along with the source code. It provides open source development which attracts researchers
+to work and modify the extent of Unix. 
+The Berkeley Software Distribution (BSD) was an operating system based on Research Unix, developed and distributed by the Computer Systems Research Group (CSRG) at the University of California, Berkeley. Today, "BSD" often refers to its scions, such as FreeBSD, OpenBSD and so on.
+
+BSD was initially called Berkeley Unix. In the 1980s, BSD was widely selected by workstation businesspeople in the form of established Unix alternatives so as DEC Ultrix and Sun Microsystems SunOS due to its approved licensing and awareness to many technology sectors.
+
+Kernal:
+              The kernel is a computer program core of an operating system, with complete control of the system. Generally, it loaded first on start-up (after the bootloader) manages the rest part as well as input/output requests from software, translating them into data-processing instructions for the CPU, memory, and peripherals A kernel connects the application software to the hardware of a computer.
+The critical code of the kernel is usually loaded into a separate area of memory, which is protected from access by application programs or other, less critical parts of the operating system. 
+Functions of Kernal:
+1.The central processing unit (CPU)
+2.Random-access memory (RAM)
+3.Input/output (I/O) devices
+4.Resource Management
+5.Memory management
+6.Device management
+7.System Calls
+
+

@@ -1,0 +1,11 @@
+RCF 6290 introduced in June 2011
+Authors:
+Y. Nir, Ed.
+D. Wierbowski
+F. Detienne
+P. Sethi
+This paper illustrates a continuation of the Internet Key Exchange
+   Protocol version 2 (IKEv2) that allows for faster detection of
+   Security Association (SA) desynchronization using a saved token(QCD_Token).
+When an IPsec tunnel between two IKEv2 peers is disconnected due to a
+   restart of one peer, it can take as much as several minutes for the another peer to discover that the reboot has occurred, thus delaying recovery.  The main aim to make the process faster and Effective.

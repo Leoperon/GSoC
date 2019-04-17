@@ -1,0 +1,18 @@
+RFC 6023
+On October 2010 
+Y. Nir
+H. Tschofenig
+H. Deng
+R. Singh
+Published a proposal of RCF 6023 in which it specifies the requirement
+   is seldom disturbing or unnecessary, as any implementations
+   demand to accept IKEv2 for authentication entirely, while others would like to set up the IKEv2 SA before any actual traffic to protect.
+   The extension specified in this paper supports the conception of an
+   IKEv2 SA without attempting to build a Child SA.  The terms
+   IKEv2, IKEv2 SA, and Child SA and the various IKEv2 negotiations are defined in RFC 5996.
+   Without any Child, SA is not a hopeless endeavor for IKEv2 SA. It allows:
+        o  Reviewing the current status of the peers.
+        o  Quickly setting up things without much delay.
+        o  Verification of the peer.
+        o  Disclosure of NAT(Network address translation is a process of remapping one IP address space into another by changing network address data in the IP header of packets while they are in transit across a traffic routing device) boxes between two hosts on the Internet.
+

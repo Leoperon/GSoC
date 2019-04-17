@@ -1,0 +1,16 @@
+Support for RFC 5723: IKEv2 Session resumption
+
+-RFC
+   In Cyberworld, a Request for Comments is a type of communication from the technology association. RFCs may have many different bodies including of the Internet Engineering Task Force (IETF), the Internet Research Task Force(IRTF), the Internet Architecture Board (IAB) or from autonomous contributors. The RFC system is maintained by the Internet Society(ISOC).
+RFC format introduced in 1969 as part of the fundamental ARPANET project.
+The Advanced Research Projects Agency Network (ARPANET) was an immediate packet-switching system and the first network to perform the TCP/IP rules set. Both technologies became the technological infrastructure of the Internet. The ARPANET was initially founded by the Advanced Research Projects Agency (ARPA) of the United States Department of Defense.
+The RFC Editor indicates each RFC a serial number. Once specified a number and announced, an RFC is never repealed or changed. The paper demands measures, the contributors announce a revised paper. Consequently, some RFCs replace others; the superseded RFCs are said to be deprecated, obsolete, or obsoleted by the superseding RFC. 
+
+-RCF  5723: IKEv2 protocol has a certain computational and transmission burden with regard to the number of round trips required and the cryptographic processes involved. In remote access situations, the Extensible Authentication Protocol(EAP) is used for authentication, which adds several more performance and consequently latency.
+  To re-establish security associations (SAs) upon a crash reconstruction a condition is time-consuming especially when an IPsec equal (such as a  VPN gateway)[VPN-Virtual Private Network] needs to re-establish a large number of SAs with various endpoints.  A high number of parallel sessions might cause additional obstacles for an IPsec peer during SA re-establishment. It would be useful to provide an efficient way to resume an IKE/IPsec session.  It proposes an extension to IKEv2 that allows a client to re-establish an IKE SA with a gateway(a device which allows data to flow from network to other) in a highly efficient manner, utilizing a previously established IKE SA.
+ A client can reconnect to a gateway from which it was disconnected.
+   The recommended approach encodes partial IKE state into an opaque ticket, which can be stored on the client or in a centralized store,
+   and is later made available to the IKEv2 responder for re-
+   authentication.  We use the term ticket to refer to the opaque data that is created by the IKEv2 responder.
+-RCF 4846:  It represents commentary and processing standards that can be used for Autonomous Submissions as the community goes forward into new associations between the IETF community and its primitive technical publisher.
+ -RFC 3932: It provided the methods for the examination of Independent Submission rivulet submissions.  With the explanation of methods by the IRSG  for the IRTF stream, it has displayed distinct that similar methods apply to the study by the IESG of IRTF stream papers.

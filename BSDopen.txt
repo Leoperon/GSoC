@@ -1,0 +1,5 @@
+Shell Scripting
+A shell script is a computer program created to be operated by the Unix shell, a command-line editor. The various accents of shell scripts are considered to be scripting languages. Typical operations performed by shell scripts include file manipulation, execution, and printing. A script which sets up the environment runs the program, and does any necessary cleanup, logging, etc. is called a wrapper.
+
+Interoperability Testing
+Interoperability testing includes testing a given software program or technology is cooperative with others and supports cross-use functionality. Many technology is being built into architectures made up of many diverse parts, where the seamless operation is critical for developing a user base.
